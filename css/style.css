@@ -1,0 +1,158 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-image: url("../img/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 750px;   
+}
+.title h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+#b-world {
+    color: #FFC32D;
+    font-weight: bold;
+}
+
+.main-title {
+    padding-top: 240px;
+}
+#world-recovery {
+    padding: 30px;
+}
+#sort-down { 
+   padding-top: 170px; 
+   height: 12px;
+   width: 21px;
+   font-size: 40px;
+}
+.looking {
+    background-color: #FFC32D;
+    padding-top: 100px;
+}
+.looking h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+.looking h1 strong {
+    color: white;
+    font-weight: bold;
+}
+#col-looking {
+    padding-top: 55px;
+}
+#row-colums h4 {
+    font-weight:bold;
+}
+#icon-row {
+    padding: 40px;
+    font-size: 77px;
+}
+#container-col {
+    box-sizing: border-box;
+    height: 400px;
+    width: 392px;
+    border: 2px solid #FFFFFF;
+}
+
+.participate {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.participate h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+.participate strong {
+    font-weight: bold;
+    color: #FFC32D;;
+}
+#icon-participate {
+    padding-right: 10px;
+    font-size: 20px;
+   
+}
+#col-participate p {
+    border-right: 2px solid;
+}
+
+.together {
+    background-color:#D8D8D8;
+}
+.together h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+.together strong {
+    font-weight: bold;
+    color: #FFC32D;;
+}
+.together-col{
+    padding-top: 25px;
+}
+#fondodebate {
+    height: 550px;
+    width: 100%;
+}
+.overview h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+.overview h1 strong {
+    font-weight: bold;
+    color: #FFC32D;
+}
+#background-col {
+    background-image: url(../img/backgroundthiking1.png);
+    height: 800px;
+    width: 907px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col-overview {
+    padding-left: 100px;
+}
+#overview-col {
+    background-color: #FFC32D;
+    
+}
+#row-overview {
+    background-color: #E8EBF0;
+}
+#overview-row {
+    padding: 0 80px;
+}
+.line {
+    padding: 0;
+}
+.overview strong {
+    font-weight: medium;
+    color: white;
+}
+.circulo {
+    box-sizing: border-box;
+    height: 88px;
+    width: 88px;
+    border: 2.4px solid #FFC32D;
+    border-radius: 78px;
+}
+.circulo h4, h2 {
+    font-weight: bold;
+    color: #FFC32D;
+}
+.works strong {
+    color: #FFC32D;
+}
+#fontmedium {
+    font-weight: 500;
+}
+#fontbold {
+    font-weight: bold;
+    color: #FFC32D;
+}
