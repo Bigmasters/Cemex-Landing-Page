@@ -8,10 +8,13 @@
     <!--Bootstrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:992px)">
     <!--FONTS UBUNTU-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/18e4c0302b.js" crossorigin="anonymous"></script>
 
@@ -19,21 +22,22 @@
 <body>
      <header>
          <div class="container">
-           <div class="main-title">
+           <div class="main">
             <div class="title"> 
-             <div class="row justify-content-center">
-                <img src="img/logo-RT-white.png" alt="logo-RT-white">
+             <div class="row justify-content-center video-placeholder__logo">
+              <picture> 
+              <source  class="img-desktop" media="(min-width:770px)" srcset="./img/logo-RT-white.png">
+                <img class="img-mobile"  src="img/logo-RT-white-mobile.png" alt="logo-RT-white"> 
+              </picture>
              </div>
-            <div class="row justify-content-center" id="world-recovery">
-                <h3 class="text-center text-uppercase">Calling for initiatives to boost the <strong id="b-world">world's recovery</strong>.</h3>
+            <h3 class="text-uppercase main-title" id="main-h3">Calling for initiatives to boost the <strong id="main-title">world's recovery</strong>.</h3>
+              <div class="row justify-content-center">
+               <i class="fas fa-sort-down" id="sort-down"></i>
+              </div>
            </div>
-           <div class="row justify-content-center">
-            <i class="fas fa-sort-down" id="sort-down"></i>
-           </div>
-         </div>
         </div>
       </header>
-    <div class="looking">
+    <section class="section-looking">
         <div class="container" id="looking">
             <div class="row justify-content-center">
                 <div class="col-6">
@@ -41,187 +45,139 @@
                     We want to support <strong>our society</strong>, strengthen our resilience and help<br>the economy, to have a quick return to a new and better normality for millions of citizens globally affected by the <strong>COVID-19</strong> crisis.</p>
                 </div>
             </div>
-            <div class="row justify-content-center" id="col-looking">
-                <div class="col-7">
-                    <h1>We are <strong>looking for iniciative to</strong></h1>
+            <div class="row justify-content-center py-4" id="col-looking">
+                <div class="col-md-7 col-lg-8">
+                    <h1 class="text-center">We are <strong class="text-white">looking for iniciative to</strong></h1>
                 </div>
             </div>
-          <div class="container">
-            <div class="row py-5">
-                <div class="col mx-4" id="container-col">
-                    <div class="row justify-content-center" id="row-colums">
+            <div class="row items justify-content-center">
+                <div class="col-md-12 my-4 col-lg border border-1 mx-4" id="row.col.items">
+                    <div class="item">
                        <div class="text-center"><i class="fas fa-hand-holding-usd" id="icon-row"></i></div>
                        <h5 class="text-center text-white font-weight: bold">Revamp the economy trhough sustainable growth</h5>
                        <b><p class="text-center text-white">______</p></b>
                        <b><p class="text-center">Support workers, entrepreneurs and employer's recovery, promoting sustainable initiatives and living standards.</p></b>
                     </div>
                 </div>
-                <div class="col mx-4" id="container-col">
-                    <div class="row justify-content-center" id="row-colums">
+                <div class="col-md-12 my-4 col-lg border border-1 mx-4" id="row.col.items">
+                    <div class="item">
                        <div class="text-center"><i class="fas fa-building" id="icon-row"></i></i></div>
                        <h5 class="text-center text-white font-weight: bold">Enahancecitiesand infrastruture adaptiveness and resilence</h5>
                        <b><p class="text-center text-white">______</p></b>
                        <b><p class="text-center">Re-design our cities and re-invent infrastructure to better prepare it to prevent and battle against future societal issues and climate challenges.</p></b>
                     </div>
                 </div>
-                <div class="col mx-4" id="container-col">
-                    <div class="row justify-content-center" id="row-colums">
+                <div class="col-md-12 my-4 col-lg border border-1 mx-4" id="row.col.items">
+                    <div class="item"></div>
                        <div class="text-center"><i class="fas fa-hand-holding-heart" id="icon-row"></i></div>
                        <h5 class="text-center text-white font-weight: bold">Ensure life continuity & boost social community</h5>
                        <b><p class="text-center text-white">______</p></b>
                        <b><p class="text-center">Lockdown period, re-boosting our communities and key sectors in safe and innovative ways (e.g. education, hospitality, social life).</p></b>
                     </div>
-                </div>
-            </div>
+                </div>        
           </div>
-        </div>
-    </div>
-    <div class="participate">
+        </section>
+    <section class="participate">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-7">
+                        <h1 class="text-center pb-4">Who should<strong id="strong"> participate</strong></h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg text-center p-0 m-0" id="col-participate"> 
+                        <p class= "text-center" id="studentborder"><i class="fas fa-graduation-cap" id="icon-participate"></i>Students</p>
+                    </div>
+                    <div class="col-sm-6 col-lg text-center p-0 m-0" id="col-participate"> 
+                        <p id="individualsborder"><i class="fas fa-graduation-cap" id="icon-participate"></i>Individuals with</p><p class="p-participate">brillant ideas</p>
+                    </div>
+                    <div class="col-sm-5 col-lg text-center p-0 m-0" id="col-participate"> 
+                        <p class= "text-center" id="entrepreneursborder"><i class="fas fa-donate" id="icon-participate"></i>Entrepreneurs</p>
+                    </div>
+                    <div class="col-sm-3 col-lg text-center p-0 m-0" id="col-participate"> 
+                        <p class= "text-center" id="smesborder"><i class="fas fa-building" id="icon-participate"></i>SMEs</p>
+                    </div>
+                    <div class="col-sm-4 col-lg text-center p-0 m-0" id="col-participate"> 
+                        <p><i class="fas fa-globe" id="icon-participate"></i>NGOs</p>
+                    </div>
+                </div>  
+            </div>
+    </section>
+    <section class="together">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-7">
-                    <h1 class="text-center pb-4">Who should<strong> participate</strong></h1>
+           <div class="row justify-content-center">
+               <div class="col-md-9 col-lg-8 pt-5">
+                   <h1 class="text-center">What we can achieve<strong id="strong"> together</strong></h1>
+                   </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col text-center" id="col-participate"> 
-                    <p><i class="fas fa-graduation-cap" id="icon-participate"></i>Students</p>
-                </div>
-                <div class="col text-center" id="col-participate"> 
-                    <p><i class="fas fa-graduation-cap" id="icon-participate"></i>Individuals with brillant ideas</p>
-                </div>
-                <div class="col text-center" id="col-participate"> 
-                    <p><i class="fas fa-donate" id="icon-participate"></i>Entrepreneurs</p>
-                </div>
-                <div class="col text-center" id="col-participate"> 
-                    <p><i class="fas fa-building" id="icon-participate"></i>SMEs</p>
-                </div>
-                <div class="col text-center"> 
-                    <p><i class="fas fa-globe" id="icon-participate"></i>NGOs</p>
-                </div>
-            </div>  
-        </div>
-    </div>
-    <div class="together">
-     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-7 pt-5">
-                <h1 class="text-center">What we can achieve<strong> together</strong></h1>
-                </div>
-              <div class="container">
-                <div class="row justify-content-center pt-5">
-                 <div class="col text-center">
-                    <h3>CAPITAL</h3>
-                    <p>Expose your solution to the partners and have access to capital to initiate a successful implementation.</p>                       
-                  </div>
-                  <div class="col text-center">
-                    <h3>ACELERATION</h3>
-                    <p>Go beyond borders and by putting our resources and connections at your disposal.</p>                       
-                  </div>
-                  <div class="col text-center">
-                    <h3>EXPOSURE</h3>
-                    <p>Showcase your idea directly to industry leading partners and leverage on their expertise and global reach.</p>                       
-                  </div>
-                </div>
-                <div class="row justify-content-center pt-5">
-                    <div class="col text-center">
-                       <h5>Examples</h5>
-                       <p>Economic award to each winning initiative</p>
-                       <p>Referrals to supporting financing stakeholders</p>                       
-                       </div>
-                     <div class="col text-center">
-                        <h5>Examples</h5>
-                        <p>All partners to offer mentoring and resources to guarantee a successful implementation</p>
-                        <p>Accelerate winning initiatives</p>                       
+                 <div class="container">
+                   <div class="row justify-content-center pt-5 d-md-none d-lg-none">
+                    <div class="col-xs order-1 pt-4 col-md text-center">
+                       <h3>CAPITAL</h3>
+                       <p class="p18">Expose your solution to the partners and have access to capital to initiate a successful implementation.</p>                       
                      </div>
-                     <div class="col text-center">
-                     <h5>Examples</h5>
-                     <p>Press release distribution in global media outlets.</p>                      
-                     <p>Social media mentions in partners’ channels</p>
+                     <div class="col-xs order-3 pt-4 col-md text-center">
+                       <h3>ACELERATION</h3>
+                       <p class="p18">Go beyond borders and by putting our resources and connections at your disposal.</p>                       
                      </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-      <div class="fondodebate">
-        <img src="img/backgroundebating.jpeg" id="fondodebate" alt="fondodebate">
-      </div>
-      <div class="overview">
-        <div class="row" id="row-overview">
-            <div class="col-7 pt-5" id="col-overview">
-                <h1 class="text-rigth">Challenge<strong> Overview</strong></h1>
-                </div>
-        </div>
-        <div class="row">
-            <div class="col-8" id="background-col">
-                </div>
-                <div class="col-4 pt-5" id="overview-col">
-                    <div class="row text-center" id="overview-row"><p>9 best proposals selected as <b>finalist</b>, pitching their ideas in the <b>Pitchday</b> 3 Final Winners.</p><p><strong>____________</strong></p></div>
-                    <div class="row text-center" id="overview-row"><p><b>Top-level judges</b>, representing all the Challenge Partners, will evaluate the ideas.</p><p><strong>____________</strong></p></div>
-                    <div class="row text-center" id="overview-row"><p>3 weeks <b>submission</b> phase and subsequent closings based on 1st closing results evaluation.</p><p><strong>____________</strong></p></div>
-                    <div class="row text-center" id="overview-row"><p>Open challenge for entrepreneurs, SMEs, students, <b>NGOs</b> and individuals looking to boost the worlds’ recovery.</p><p><strong>____________</strong></p></div>
-                    <div class="row text-center" id="overview-row"><p><strong>Digital Pitchday</strong> online and broadcasted.<i class="fas fa-shield-alt"></i></p><p><strong>____________</strong></p></div>
-                    <div class="row text-center" id="overview-row"><p><b>Access</b> to capital, corporate resources, acceleration, media exposure, and partners' network.</p></div>
-                </div>
-        </div>
-      </div>
-      <div class="works">
-        <div class="container mb-5">
-          <div class="row justify-content-center">
-            <div class="col-7 pt-5">
-              <h1 class="text-center">How it<strong> Work</strong></h1>
-                </div>
-          </div>
-          <div class="container">
-            <div class="row">     
-             <div class="col pt-5 text-center"><div class="mx-auto circulo d-flex justify-content-center align-items-center"><h4>April 29</h4></div><p class="pt-4" id="fontmedium">RESTARTING TOGETHER STARTS</p></div>
-             <div class="col pt-5 text-center"><div class="mx-auto circulo d-flex justify-content-center align-items-center"><h4>April 29</h4></div><p class="pt-4" id="fontmedium">SUBMISSION PHASE</p></div>
-             <div class="col pt-5 text-center"><div class="mx-auto circulo d-flex justify-content-center align-items-center"><h4>April 29</h4></div><p class="pt-4" id="fontbold">RESTARTING TOGETHER STARTS</p></div>
-             <div class="col pt-5 text-center"><div class="mx-auto circulo d-flex justify-content-center align-items-center"><h4>April 29</h4></div><p class="pt-4" id="fontbold">RESTARTING TOGETHER STARTS</p></div>
-             <div class="col pt-5 text-center"><div class="mx-auto circulo d-flex justify-content-center align-items-center"><h4>April 29</h4></div><p class="pt-4" id="fontmedium">RESTARTING TOGETHER STARTS</p></div>
-             <div class="col pt-5 text-center"><div class="mx-auto circulo d-flex justify-content-center align-items-center"><h2>...</h2></div><p class="pt-4" id="fontmedium">RESTARTING TOGETHER STARTS</p></div>                                                       
-         </div>     
-         
-         <div class="row">     
-             <div class="col pt-1 text-center"><p>Online platform open for submission.</p></div>
-             <div class="col pt-1 text-center"><p>3 weeks open for independent projects, start-ups, entrepreneurs or NGO ́s proposals submission</p></div>
-             <div class="col pt-1 text-center"><p>Partners select the 9 best proposals based on its social and economic impact, feasibility, and implementation timeline</p></div>
-             <div class="col pt-1 text-center"><p>Presenting for top- level judges and broadcast live.</p></div>
-             <div class="col pt-1 text-center"><p>Three winners will have access to capital, partners resources, acceleration, media exposure, and partners' network</p></div>
-             <div class="col pt-1 text-center"><p>The winners with the Partners support will deploy their initiatives to make a real impact in our society</p></div>                                                       
-         </div>
-         <div class="row">     
-            <div class="col pt-1 text-center"><p>KICK-OFF AND SUBMISSION</p></div>
-            <div class="col pt-1 text-center"><p><strong>COMPETITION</strong></p></div>
-            <div class="col pt-1 text-center"><p>DEPLOYMENT</p></div>                                                    
-        </div>
-     </div>
-     </div>
-      </div>
-  <div class="solution">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-7 pt-5">
-              <h1 class="text-center">Be part of the<strong> solution</strong></h1>
-                </div>
-          </div>
-       </div>
-       <div class="container">
-           <div class="row">
-            <div class="col">
-                <p>Primary contact name</p><input type="text" class="form-control" placeholder="Type y out name" aria-label="First name">
-                <p>Primary contact name</p><input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                <p>Primary contact name</p><input type="text" class="form-control" placeholder="First name" aria-label="First name">
-              </div>
-              <div class="col">
-                <p>Extra link</p><input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                <p>Extra link</p><input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                <p>Extra link</p><input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-              </div>
-       </div>
-  </div>
-     <!--SCRIPT Bootstrap 5-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-</body>
-</html>
+                     <div class="col-xs order-5 pt-4 col-md text-center">
+                       <h3>EXPOSURE</h3>
+                       <p class="p18">Showcase your idea directly to industry leading partners and leverage on their expertise and global reach.</p>                       
+                     </div>
+                       <div class="col-xs order-2 pb-4 col-md text-center">
+                          <h5 class="h5ligth">Examples<h5>
+                          <p class="p14">Economic award to each winning initiative</p>
+                          <p class="p14">Referrals to supporting financing stakeholders</p>                       
+                          </div>
+                        <div class="col-xs order-4 pb-4 col-md text-center">
+                           <h5 class="h5ligth">Examples</h5>
+                           <p class="p14">All partners to offer mentoring and resources to guarantee a successful implementation</p>
+                           <p class="p14">Accelerate winning initiatives</p>                       
+                        </div>
+                        <div class="col-xs order-5 pb-4 col-md text-center">
+                        <h5 class="h5ligth">Examples</h5>
+                        <p class="p14">Press release distribution in global media outlets.</p>                      
+                        <p class="p14">Social media mentions in partners’ channels</p>
+                        </div>               
+                </div>              
+                <div class="container d-none d-md-block">
+                    <div class="row justify-content-center pt-5">
+                     <div class="col text-center">
+                        <h3>CAPITAL</h3>
+                        <p class="p18">Expose your solution to the partners and have access to capital to initiate a successful implementation.</p>                       
+                      </div>
+                      <div class="col text-center">
+                        <h3>ACELERATION</h3>
+                        <p class="p18">Go beyond borders and by putting our resources and connections at your disposal.</p>                       
+                      </div>
+                      <div class="col text-center">
+                        <h3>EXPOSURE</h3>
+                        <p class="p18">Showcase your idea directly to industry leading partners and leverage on their expertise and global reach.</p>                       
+                      </div>
+                    </div>
+                    <div class="row justify-content-center pt-5">
+                        <div class="col text-center">
+                           <h5 class="h5ligth">Examples</h5>
+                           <p class="p14">Economic award to each winning initiative</p>
+                           <p class="p14">Referrals to supporting financing stakeholders</p>                       
+                           </div>
+                         <div class="col text-center">
+                            <h5 class="h5ligth">Examples</h5>
+                            <p class="p14">All partners to offer mentoring and resources to guarantee a successful implementation</p>
+                            <p class="p14">Accelerate winning initiatives</p>                       
+                         </div>
+                         <div class="col text-center">
+                         <h5 class="h5ligth">Examples</h5>
+                         <p class="p14">Press release distribution in global media outlets.</p>                      
+                         <p class="p14">Social media mentions in partners’ channels</p>
+                         </div>
+                    </div>
+                </div>                    
+               </div>
+    </section>
+      <!--SCRIPT Bootstrap 5-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      <!--JAVASCRIPT-->
+      <script src="js/main.js"></script>
+  </body>
+  </html>
