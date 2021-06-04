@@ -68,14 +68,20 @@ h5 {
 }
 section {
     padding: 4rem 0 5rem;
+    overflow: hidden;
 }
-.section-looking {
+.section-looking , .section-solution  {
     background-color: #FFC32D;
     margin: 0 0 1rem;
 }
 #icon-row {
     font-size: 5rem;
     padding: 1.2rem;
+}
+#text-white {
+    font-weight: bold;
+    font-size: 44px;
+    color: white;
 }
 #strong {
 font-weight: bold;
@@ -100,7 +106,7 @@ font-weight: bold;
     padding: 1.4rem !important
 }
 
-.together {
+.section-together {
     background-color:#D8D8D8;
 }
 .p18 {
@@ -114,6 +120,127 @@ font-weight: bold;
 .p14 {
     font-weight: 300;
     font-size: 14px;
+}
+
+.section__triangl-line .section__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.overview {
+    background-color: #E8EBF0;
+
+}
+#overview-col {
+    background-color: #FFC300;
+}
+#thinking {
+    
+    margin:0 0 1.5rem 0;
+    padding: 0;
+}
+#from {
+    color: #FFC32D;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+#overview-col
+{
+    margin: auto;
+}
+
+.how-it-works__items > * {
+    margin-bottom: 30px;
+}
+.how-it-works__title + .how-it-works__line-mobile {
+    position: relative;
+    padding-left: 32px;
+}
+.how-it-works__date-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.how-it-works__text {
+    position: relative;
+    padding: 15px 14px;
+}
+
+.how-it-works__title {
+    line-height: 24px;
+    font-size: 21px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 34px;
+}
+.how-it-works__title + .how-it-works__line-mobile:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    height: 100%;
+    width: 8px;
+}
+h6 {
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.how-it-works__title.black + .how-it-works__line-mobile:after {
+    background: black;
+}
+
+.how-it-works__title.yellow + .how-it-works__line-mobile:after {
+    background: #FFC32D;
+}   
+.how-it-works__title.yellow, .h6yellow, .how-it-works__date-title, h4, .yellowh2, .yellowh6 {
+    color:#FFC32D;
+}
+.circulo {
+    box-sizing: border-box;
+    height: 105px;
+    width: 100px;
+    border: 2.4px solid #FFC32D;
+    border-radius: 100px;
+}
+.circulo , h2 {
+    font-weight: bold;
+    color: #FFC32D;
+}
+.fechas {
+font-size: 2rem;
+margin: 1.5rem;
+}
+.form-control{
+	background-color: #FFC32D;
+	color:white;
+	margin-top: 1rem;
+	padding: 20px;
+    border: none;
+}
+.form-control:focus {
+    color: white;
+    background-color: #FFC32D;
+    outline: 0;
+    border: none!important;
+}
+input, .contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none!important; 
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #fff!important;
 }
 @media (min-width: 575.98px) {
     #studentborder, #entrepreneursborder, #smesborder {
