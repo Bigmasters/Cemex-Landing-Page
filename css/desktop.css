@@ -1,0 +1,37 @@
+header {
+    background-image: url("../img/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;   
+}
+.video-placeholder__logo {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.video-placeholder__logo img {
+    text-align: center;
+    margin: 0 auto;
+}
+.title {
+    height: 100%;
+    width: 100%;
+}
+.img-mobile {
+    height: 100%;
+    width: 100%;
+    padding-top: 17rem;
+}
+.p-participate {
+    margin-left: 1.5rem;
+}
+#col-participate {
+    padding: 0.5rem !important;
+    margin: 2rem;
+}
+#studentborder, #entrepreneursborder, #smesborder , #individualsborder{
+    border-right: 4px solid #dee2e6!important;
+}

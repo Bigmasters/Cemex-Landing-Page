@@ -1,0 +1,43 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-image: url("../img/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 750px;   
+}
+
+.title h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+#b-world {
+    color: #FFC32D;
+    font-weight: bold;
+}
+
+.main-title {
+    padding-top: 240px;
+}
+#world-recovery {
+    padding: 30px;
+}
+#sort-down {  
+   height: 12px;
+   width: 21px;
+   font-size: 40px;
+}
+#col-participate {
+    padding: 2rem !important;
+    margin: 2rem;
+}
+.p-participate {
+    margin-left: 1.5rem;
+}
+#studentborder, #entrepreneursborder, #smesborder {
+    border-right: 4px solid #dee2e6!important;
+}
