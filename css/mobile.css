@@ -1,0 +1,122 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+header {
+    background-image: url("../img/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;   
+}
+#main-h3 {
+    font-weight: lighter;
+    font-size: 27.3px;
+}
+#main-title {
+    color: #FFC32D;
+    font-weight: bold;
+}
+h1 {
+    font-weight: lighter;
+    font-size: 42px;
+}
+h2 {
+    font-weight: bold;
+}
+h3 {
+    font-weight: bolder;
+    font-size: 22px;
+}
+h5 {
+    font-weight: bolder;
+}
+.video-placeholder__logo {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.video-placeholder__logo img {
+    text-align: center;
+    margin: 0 auto;
+}   
+.img-mobile {
+    height: 100%;
+    max-width: 100%;
+}
+.title h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.main {
+    padding-top: 8rem;
+}
+.main-title {
+    color: #FFC32D;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+}
+#sort-down { 
+   padding-top: 5rem; 
+   height: 12px;
+   width: 21px;
+   font-size: 40px;
+}
+section {
+    padding: 4rem 0 5rem;
+}
+.section-looking {
+    background-color: #FFC32D;
+    margin: 0 0 1rem;
+}
+#icon-row {
+    font-size: 5rem;
+    padding: 1.2rem;
+}
+#strong {
+font-weight: bold;
+ font-size: 44px;
+ color: #FFC32D;
+}
+
+#icon-participate {
+    padding-right: 10px;
+    font-size: 20px;
+}
+.participate div p 
+{
+    margin-bottom: 0;
+    padding: 0;
+}
+.p-participate {
+    margin-left: 1.5rem;
+    border: none;
+}
+#col-participate {
+    padding: 1.4rem !important
+}
+
+.together {
+    background-color:#D8D8D8;
+}
+.p18 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.h5ligth {
+    font-weight: 500;
+    font-size: 14px;
+}
+.p14 {
+    font-weight: 300;
+    font-size: 14px;
+}
+@media (min-width: 575.98px) {
+    #studentborder, #entrepreneursborder, #smesborder {
+        border-right: 4px solid #dee2e6!important;
+    }
+}
