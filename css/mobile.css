@@ -220,7 +220,70 @@ h6 {
 font-size: 2rem;
 margin: 1.5rem;
 }
-
+.form-control {
+    color: white!important;
+    background: none;
+    border: none;
+    border-bottom: solid 2px white;
+}
+.form-control:focus {
+    background:none!important;
+    box-shadow: none;
+    border-bottom: solid 2px white;
+}
+::placeholder {
+    color: white!important;
+}
+.section-solution p  {
+    margin-top: 1rem;
+}
+#col-form-contact {
+    padding: 0 2rem;
+}
+.form-select {
+    color: white;
+    background-color: #FFC32D;
+    border: none;
+    border-bottom: solid 2px white;
+}
+.form-select-indicator {
+    color: white;
+}
+.form-select:focus {
+    background-color: #FFC32D;
+    box-shadow: none;
+    border-bottom: solid 2px white;
+}
+label {
+    padding-bottom: 1rem;
+}
+.btn-primary {
+    color: black;
+    background: none;
+    height: 40px;
+    width: 120px;
+    border: 2.4px solid black;
+    border-radius: 100px;
+}
+.btn-primary:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+.section-allies p {
+    font-size: 18px;
+}
+.section-allies img {
+    padding: 0;
+}
+footer {
+    background-color: #000000;
+    height: 108px;
+}
+footer p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
 @media (min-width: 575.98px) {
     #studentborder, #entrepreneursborder, #smesborder {
         border-right: 4px solid #dee2e6!important;
